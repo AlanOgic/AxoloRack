@@ -1,0 +1,951 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1300 5500 2    50   Input ~ 0
+PB6
+Text GLabel 1300 5400 2    50   Input ~ 0
+PB7
+Text GLabel 1300 5300 2    50   Input ~ 0
+PB8
+Text GLabel 1300 5200 2    50   Input ~ 0
+PB9
+Text GLabel 1300 4900 2    50   Input ~ 0
+PC0
+Text GLabel 1300 4800 2    50   Input ~ 0
+PC1
+Text GLabel 1300 4700 2    50   Input ~ 0
+PC2
+Text GLabel 1300 4600 2    50   Input ~ 0
+PC3
+Text GLabel 1300 4500 2    50   Input ~ 0
+PC4
+Text GLabel 1300 4400 2    50   Input ~ 0
+PC5
+Text GLabel 1300 4100 2    50   Input ~ 0
+PA0
+Text GLabel 1300 4000 2    50   Input ~ 0
+PA1
+Text GLabel 1300 3900 2    50   Input ~ 0
+PA2
+Text GLabel 1300 3800 2    50   Input ~ 0
+PA3
+Text GLabel 1300 3500 2    50   Input ~ 0
+PA4
+Text GLabel 1300 3400 2    50   Input ~ 0
+PA5
+Text GLabel 1300 3300 2    50   Input ~ 0
+PA6
+Text GLabel 1300 3200 2    50   Input ~ 0
+PA7
+Text GLabel 1300 3100 2    50   Input ~ 0
+PB0
+Text GLabel 1300 3000 2    50   Input ~ 0
+PB1
+$Comp
+L Thonkiconn:WQP-PJ301M-12_JACK IN2
+U 1 1 5DE40B1C
+P 9950 1500
+F 0 "IN2" H 10158 1530 50  0000 L CNN
+F 1 "Audio in L (b)" H 9924 1324 50  0000 C CNN
+F 2 "SamaSys:PJ301M" H 9950 1500 50  0001 L BNN
+F 3 "" H 9950 1500 50  0001 C CNN
+	1    9950 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Thonkiconn:WQP-PJ301M-12_JACK IN1
+U 1 1 5DE421D3
+P 9950 1150
+F 0 "IN1" H 9932 1431 50  0000 C CNN
+F 1 "Audio in R(a)" H 9932 1340 50  0000 C CNN
+F 2 "SamaSys:PJ301M" H 9950 1150 50  0001 L BNN
+F 3 "" H 9950 1150 50  0001 C CNN
+	1    9950 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3000 1300 3000
+Wire Wire Line
+	1300 3100 1150 3100
+Wire Wire Line
+	1150 3200 1300 3200
+Wire Wire Line
+	1300 3300 1150 3300
+Wire Wire Line
+	1150 3400 1300 3400
+Wire Wire Line
+	1300 3500 1150 3500
+Wire Wire Line
+	1150 3800 1300 3800
+Wire Wire Line
+	1300 3900 1150 3900
+Wire Wire Line
+	1150 4000 1300 4000
+Wire Wire Line
+	1300 4100 1150 4100
+Wire Wire Line
+	1150 4400 1300 4400
+Wire Wire Line
+	1150 4500 1300 4500
+Wire Wire Line
+	1300 4600 1150 4600
+Wire Wire Line
+	1150 4700 1300 4700
+Wire Wire Line
+	1300 4800 1150 4800
+Wire Wire Line
+	1150 4900 1300 4900
+Wire Wire Line
+	1300 5200 1150 5200
+Wire Wire Line
+	1150 5300 1300 5300
+Wire Wire Line
+	1300 5400 1150 5400
+Wire Wire Line
+	1150 5500 1300 5500
+$Comp
+L power:VDD #PWR0101
+U 1 1 5DE56F53
+P 1600 5600
+F 0 "#PWR0101" H 1600 5450 50  0001 C CNN
+F 1 "VDD" H 1617 5773 50  0000 C CNN
+F 2 "" H 1600 5600 50  0001 C CNN
+F 3 "" H 1600 5600 50  0001 C CNN
+	1    1600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DE57BC1
+P 1650 5100
+F 0 "#PWR0102" H 1650 4850 50  0001 C CNN
+F 1 "GND" H 1655 4927 50  0000 C CNN
+F 2 "" H 1650 5100 50  0001 C CNN
+F 3 "" H 1650 5100 50  0001 C CNN
+	1    1650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR0103
+U 1 1 5DE58480
+P 1850 4200
+F 0 "#PWR0103" H 1850 4050 50  0001 C CNN
+F 1 "VDDA" H 1867 4373 50  0000 C CNN
+F 2 "" H 1850 4200 50  0001 C CNN
+F 3 "" H 1850 4200 50  0001 C CNN
+	1    1850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR0104
+U 1 1 5DE593E2
+P 1850 3600
+F 0 "#PWR0104" H 1850 3450 50  0001 C CNN
+F 1 "VDDA" H 1867 3773 50  0000 C CNN
+F 2 "" H 1850 3600 50  0001 C CNN
+F 3 "" H 1850 3600 50  0001 C CNN
+	1    1850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0105
+U 1 1 5DE5A0BF
+P 1850 5000
+F 0 "#PWR0105" H 1850 4850 50  0001 C CNN
+F 1 "VDD" H 1867 5173 50  0000 C CNN
+F 2 "" H 1850 5000 50  0001 C CNN
+F 3 "" H 1850 5000 50  0001 C CNN
+	1    1850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5600 1600 5600
+Wire Wire Line
+	1150 5100 1650 5100
+Wire Wire Line
+	1150 5000 1850 5000
+Wire Wire Line
+	1150 3600 1850 3600
+Wire Wire Line
+	1150 4200 1850 4200
+$Comp
+L power:GND #PWR0106
+U 1 1 5DE63DC6
+P 1650 4300
+F 0 "#PWR0106" H 1650 4050 50  0001 C CNN
+F 1 "GND" H 1655 4127 50  0000 C CNN
+F 2 "" H 1650 4300 50  0001 C CNN
+F 3 "" H 1650 4300 50  0001 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4300 1150 4300
+$Comp
+L power:GND #PWR0107
+U 1 1 5DE6498F
+P 1650 3700
+F 0 "#PWR0107" H 1650 3450 50  0001 C CNN
+F 1 "GND" H 1655 3527 50  0000 C CNN
+F 2 "" H 1650 3700 50  0001 C CNN
+F 3 "" H 1650 3700 50  0001 C CNN
+	1    1650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3700 1150 3700
+Wire Wire Line
+	1150 2900 2050 2900
+$Comp
+L MyLib:VDDC #PWR0109
+U 1 1 5DE69C21
+P 1750 2800
+F 0 "#PWR0109" H 1750 2650 50  0001 C CNN
+F 1 "VDDC" H 1767 2973 50  0000 C CNN
+F 2 "" H 1750 2800 50  0001 C CNN
+F 3 "" H 1750 2800 50  0001 C CNN
+	1    1750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2800 1150 2800
+$Comp
+L MyLib:VDDC #PWR0110
+U 1 1 5DE6ABE2
+P 1600 2700
+F 0 "#PWR0110" H 1600 2550 50  0001 C CNN
+F 1 "VDDC" H 1617 2873 50  0000 C CNN
+F 2 "" H 1600 2700 50  0001 C CNN
+F 3 "" H 1600 2700 50  0001 C CNN
+	1    1600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2700 1150 2700
+$Comp
+L power:GND #PWR0111
+U 1 1 5DE70E04
+P 2050 3150
+F 0 "#PWR0111" H 2050 2900 50  0001 C CNN
+F 1 "GND" H 2055 2977 50  0000 C CNN
+F 2 "" H 2050 3150 50  0001 C CNN
+F 3 "" H 2050 3150 50  0001 C CNN
+	1    2050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2600 1350 2600
+Text GLabel 1300 2000 2    50   Input ~ 0
+Rin-
+Text GLabel 1300 2100 2    50   Input ~ 0
+Rin+
+Text GLabel 1300 2200 2    50   Input ~ 0
+Lin+
+Text GLabel 1300 2300 2    50   Input ~ 0
+Lin+
+Wire Wire Line
+	1150 2300 1300 2300
+Wire Wire Line
+	1300 2200 1150 2200
+Wire Wire Line
+	1150 2100 1300 2100
+Wire Wire Line
+	1300 2000 1150 2000
+Text GLabel 10300 1050 2    50   Input ~ 0
+Rin+
+Text GLabel 10300 1400 2    50   Input ~ 0
+Lin+
+$Comp
+L power:GND #PWR0114
+U 1 1 5DE82823
+P 10600 1750
+F 0 "#PWR0114" H 10600 1500 50  0001 C CNN
+F 1 "GND" H 10605 1577 50  0000 C CNN
+F 2 "" H 10600 1750 50  0001 C CNN
+F 3 "" H 10600 1750 50  0001 C CNN
+	1    10600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 1250 10600 1250
+Wire Wire Line
+	10600 1250 10600 1500
+Wire Wire Line
+	10150 1600 10600 1600
+Connection ~ 10600 1600
+Wire Wire Line
+	10600 1600 10600 1750
+Wire Wire Line
+	10150 1500 10600 1500
+Connection ~ 10600 1500
+Wire Wire Line
+	10600 1500 10600 1600
+Wire Wire Line
+	10150 1150 10600 1150
+Wire Wire Line
+	10600 1150 10600 1250
+Connection ~ 10600 1250
+Wire Wire Line
+	10150 1050 10300 1050
+Wire Wire Line
+	10150 1400 10300 1400
+$Comp
+L Device:R R2
+U 1 1 5DE91C88
+P 3750 950
+F 0 "R2" V 3543 950 50  0000 C CNN
+F 1 "100k" V 3634 950 50  0000 C CNN
+F 2 "" V 3680 950 50  0001 C CNN
+F 3 "~" H 3750 950 50  0001 C CNN
+	1    3750 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5DEA10A2
+P 4100 1600
+F 0 "#PWR0115" H 4100 1350 50  0001 C CNN
+F 1 "GND" H 4105 1427 50  0000 C CNN
+F 2 "" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0116
+U 1 1 5DEAB311
+P 3900 1600
+F 0 "#PWR0116" H 3900 1450 50  0001 C CNN
+F 1 "VDD" H 3917 1773 50  0000 C CNN
+F 2 "" H 3900 1600 50  0001 C CNN
+F 3 "" H 3900 1600 50  0001 C CNN
+	1    3900 1600
+	1    0    0    1   
+$EndComp
+Text GLabel 3400 700  0    50   Input ~ 0
+PB9
+Wire Wire Line
+	3400 700  3600 700 
+Wire Wire Line
+	4100 700  4100 950 
+Wire Wire Line
+	4100 1150 4050 1150
+Wire Wire Line
+	4050 1150 4050 1300
+Wire Wire Line
+	4050 1300 3900 1300
+Wire Wire Line
+	3900 1300 3900 950 
+Connection ~ 3900 1300
+Wire Wire Line
+	3900 1300 3900 1600
+Wire Wire Line
+	3600 950  3600 700 
+Connection ~ 3600 700 
+Wire Wire Line
+	3600 700  4100 700 
+Wire Wire Line
+	4100 1250 4100 1600
+Wire Wire Line
+	3850 1300 3900 1300
+Wire Wire Line
+	3550 1050 4100 1050
+Connection ~ 3550 1050
+Wire Wire Line
+	3400 1050 3550 1050
+Wire Wire Line
+	3550 1050 3550 1300
+Text GLabel 3400 1050 0    50   Input ~ 0
+PB8
+$Comp
+L Device:R R1
+U 1 1 5DE92973
+P 3700 1300
+F 0 "R1" V 3493 1300 50  0000 C CNN
+F 1 "100k" V 3584 1300 50  0000 C CNN
+F 2 "" V 3630 1300 50  0001 C CNN
+F 3 "~" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Oled128x64_1.23:OLED_4pin i2c1
+U 1 1 5DEA021C
+P 4700 1100
+F 0 "i2c1" V 4728 1189 45  0000 L TNN
+F 1 "OLED_4pin" V 4658 1189 28  0000 L TNN
+F 2 "" H 4730 1250 20  0001 C CNN
+F 3 "" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5DEF2301
+P 4150 2750
+F 0 "SW1" H 4150 3117 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 4150 3026 50  0000 C CNN
+F 2 "" H 4000 2910 50  0001 C CNN
+F 3 "~" H 4150 3010 50  0001 C CNN
+	1    4150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5DEF68A1
+P 6200 1100
+F 0 "C1" H 6292 1146 50  0000 L CNN
+F 1 "C104" H 6292 1055 50  0000 L CNN
+F 2 "" H 6238 950 50  0001 C CNN
+F 3 "~" H 6200 1100 50  0001 C CNN
+	1    6200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR01
+U 1 1 5DEFA49B
+P 5300 1000
+F 0 "#PWR01" H 5300 850 50  0001 C CNN
+F 1 "VDDA" H 5317 1173 50  0000 C CNN
+F 2 "" H 5300 1000 50  0001 C CNN
+F 3 "" H 5300 1000 50  0001 C CNN
+	1    5300 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DEFB1EF
+P 5200 1100
+F 0 "#PWR02" H 5200 850 50  0001 C CNN
+F 1 "GND" H 5205 927 50  0000 C CNN
+F 2 "" H 5200 1100 50  0001 C CNN
+F 3 "" H 5200 1100 50  0001 C CNN
+	1    5200 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 1000 2    50   Input ~ 0
+PC0
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J2
+U 1 1 5DF5972D
+P 6000 7000
+F 0 "J2" H 6050 7417 50  0000 C CNN
+F 1 "Eurorack" H 6050 7326 50  0000 C CNN
+F 2 "" H 6000 7000 50  0001 C CNN
+F 3 "~" H 6000 7000 50  0001 C CNN
+	1    6000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5DF5A893
+P 6550 7000
+F 0 "#PWR0108" H 6550 6750 50  0001 C CNN
+F 1 "GND" H 6555 6827 50  0000 C CNN
+F 2 "" H 6550 7000 50  0001 C CNN
+F 3 "" H 6550 7000 50  0001 C CNN
+	1    6550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 7000 6350 6900
+Wire Wire Line
+	6350 6900 6300 6900
+Wire Wire Line
+	6300 7000 6350 7000
+Wire Wire Line
+	6350 7000 6350 7100
+Wire Wire Line
+	6350 7100 6300 7100
+Connection ~ 6350 7000
+$Comp
+L power:GND #PWR0112
+U 1 1 5DF671BA
+P 5650 7000
+F 0 "#PWR0112" H 5650 6750 50  0001 C CNN
+F 1 "GND" H 5655 6827 50  0000 C CNN
+F 2 "" H 5650 7000 50  0001 C CNN
+F 3 "" H 5650 7000 50  0001 C CNN
+	1    5650 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 7100 5750 7100
+Wire Wire Line
+	5750 7100 5750 7000
+Wire Wire Line
+	5750 6900 5800 6900
+Connection ~ 5750 7000
+Wire Wire Line
+	5750 7000 5800 7000
+Wire Wire Line
+	5750 7000 5750 6900
+Wire Wire Line
+	6300 6800 6400 6800
+Wire Wire Line
+	6400 6800 6400 6700
+Wire Wire Line
+	6400 6700 6600 6700
+$Comp
+L power:+12V #PWR0113
+U 1 1 5DF8509E
+P 6600 6700
+F 0 "#PWR0113" H 6600 6550 50  0001 C CNN
+F 1 "+12V" H 6615 6873 50  0000 C CNN
+F 2 "" H 6600 6700 50  0001 C CNN
+F 3 "" H 6600 6700 50  0001 C CNN
+	1    6600 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 7000 6550 7000
+Wire Wire Line
+	5650 7000 5750 7000
+$Comp
+L MyLib:Conn_01x37_Axolot J1
+U 1 1 5DE331E7
+P 1100 3850
+F 0 "J1" H 1032 5917 50  0000 C CNN
+F 1 "Conn_01x37_Axolot" H 1032 5826 50  0000 C CNN
+F 2 "Github Lib:PinHeader_1x37_P2.54mm_Vertical" H 950 3900 50  0001 C CNN
+F 3 "~" H 950 3900 50  0001 C CNN
+	1    1100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2400 2050 2500
+Wire Wire Line
+	1150 2400 2050 2400
+Wire Wire Line
+	2050 3150 2050 2900
+Connection ~ 2050 2500
+Wire Wire Line
+	1100 2500 1150 2500
+Connection ~ 2050 2900
+Wire Wire Line
+	2050 2900 2050 2500
+Wire Wire Line
+	5800 6800 5750 6800
+Wire Wire Line
+	5750 6800 5750 6700
+Wire Wire Line
+	5750 6700 5650 6700
+Wire Wire Line
+	5800 7200 5750 7200
+Wire Wire Line
+	5750 7200 5750 7300
+Text Label 6400 6750 0    28   ~ 0
+12+
+NoConn ~ 5750 7300
+Text Label 5700 7400 0    28   ~ 0
+12-
+Text Label 6050 7200 0    28   ~ 0
+12-
+NoConn ~ 6300 7200
+NoConn ~ 6050 7200
+Wire Wire Line
+	6200 1000 6200 1200
+Connection ~ 6200 1000
+Wire Wire Line
+	5400 1250 5400 1100
+Wire Wire Line
+	6500 1000 6200 1000
+Wire Wire Line
+	6200 1000 5950 1000
+Wire Wire Line
+	6200 1200 6200 1250
+Wire Wire Line
+	6200 1250 5400 1250
+Connection ~ 6200 1200
+$Comp
+L mouser:PTV09A-4020U-B104 RV1
+U 1 1 5E059340
+P 5400 1000
+F 0 "RV1" H 5800 1265 50  0000 C CNN
+F 1 "PTV09A-4020U-B104" H 5800 1174 50  0000 C CNN
+F 2 "SamaSys:PTV09A4020FB103" H 6050 1100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PTV09A-4020U-B104.pdf" H 6050 1000 50  0001 L CNN
+F 4 "9mm carbon potentiometer linear 100K 20% Bourns Potentiometer PTV Series with a 6 mm Dia. Shaft 100k +/-20% 0.05W, Linear, Through Hole" H 6050 900 50  0001 L CNN "Description"
+F 5 "" H 6050 800 50  0001 L CNN "Height"
+F 6 "652-PTV09A4020U-B104" H 6050 700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PTV09A4020U-B104" H 6050 600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 6050 500 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTV09A-4020U-B104" H 6050 400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1100 5200 1100
+Connection ~ 5400 1100
+Wire Wire Line
+	5300 1000 5400 1000
+$Comp
+L mouser:PTV09A-4020U-B104 RV2
+U 1 1 5E09875D
+P 5450 1850
+F 0 "RV2" H 5850 2115 50  0000 C CNN
+F 1 "PTV09A-4020U-B104" H 5850 2024 50  0000 C CNN
+F 2 "SamaSys:PTV09A4020FB103" H 6100 1950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PTV09A-4020U-B104.pdf" H 6100 1850 50  0001 L CNN
+F 4 "9mm carbon potentiometer linear 100K 20% Bourns Potentiometer PTV Series with a 6 mm Dia. Shaft 100k +/-20% 0.05W, Linear, Through Hole" H 6100 1750 50  0001 L CNN "Description"
+F 5 "" H 6100 1650 50  0001 L CNN "Height"
+F 6 "652-PTV09A4020U-B104" H 6100 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PTV09A4020U-B104" H 6100 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 6100 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTV09A-4020U-B104" H 6100 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5E0993F6
+P 6250 1950
+F 0 "C2" H 6342 1996 50  0000 L CNN
+F 1 "C104" H 6342 1905 50  0000 L CNN
+F 2 "" H 6288 1800 50  0001 C CNN
+F 3 "~" H 6250 1950 50  0001 C CNN
+	1    6250 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6550 1850 2    50   Input ~ 0
+PC1
+Text GLabel 8200 1000 2    50   Input ~ 0
+PC2
+$Comp
+L power:VDDA #PWR04
+U 1 1 5E099A7F
+P 5400 1850
+F 0 "#PWR04" H 5400 1700 50  0001 C CNN
+F 1 "VDDA" H 5417 2023 50  0000 C CNN
+F 2 "" H 5400 1850 50  0001 C CNN
+F 3 "" H 5400 1850 50  0001 C CNN
+	1    5400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E09A514
+P 5200 1950
+F 0 "#PWR03" H 5200 1700 50  0001 C CNN
+F 1 "GND" H 5205 1777 50  0000 C CNN
+F 2 "" H 5200 1950 50  0001 C CNN
+F 3 "" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1950 5450 1950
+Wire Wire Line
+	6250 2050 6250 2100
+Wire Wire Line
+	6250 2100 5450 2100
+Wire Wire Line
+	5450 2100 5450 1950
+Connection ~ 5450 1950
+Wire Wire Line
+	6250 1850 6550 1850
+Connection ~ 6250 1850
+$Comp
+L mouser:PTV09A-4020U-B104 RV3
+U 1 1 5E0A8C16
+P 7050 1000
+F 0 "RV3" H 7450 1265 50  0000 C CNN
+F 1 "PTV09A-4020U-B104" H 7450 1174 50  0000 C CNN
+F 2 "SamaSys:PTV09A4020FB103" H 7700 1100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PTV09A-4020U-B104.pdf" H 7700 1000 50  0001 L CNN
+F 4 "9mm carbon potentiometer linear 100K 20% Bourns Potentiometer PTV Series with a 6 mm Dia. Shaft 100k +/-20% 0.05W, Linear, Through Hole" H 7700 900 50  0001 L CNN "Description"
+F 5 "" H 7700 800 50  0001 L CNN "Height"
+F 6 "652-PTV09A4020U-B104" H 7700 700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PTV09A4020U-B104" H 7700 600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 7700 500 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTV09A-4020U-B104" H 7700 400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5E0A9461
+P 7850 1100
+F 0 "C3" H 7942 1146 50  0000 L CNN
+F 1 "C104" H 7942 1055 50  0000 L CNN
+F 2 "" H 7888 950 50  0001 C CNN
+F 3 "~" H 7850 1100 50  0001 C CNN
+	1    7850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1200 7850 1250
+Wire Wire Line
+	7850 1250 7050 1250
+Wire Wire Line
+	7050 1250 7050 1100
+$Comp
+L power:GND #PWR05
+U 1 1 5E0ACED2
+P 6900 1100
+F 0 "#PWR05" H 6900 850 50  0001 C CNN
+F 1 "GND" H 6905 927 50  0000 C CNN
+F 2 "" H 6900 1100 50  0001 C CNN
+F 3 "" H 6900 1100 50  0001 C CNN
+	1    6900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR06
+U 1 1 5E0AD516
+P 6950 1000
+F 0 "#PWR06" H 6950 850 50  0001 C CNN
+F 1 "VDDA" H 6967 1173 50  0000 C CNN
+F 2 "" H 6950 1000 50  0001 C CNN
+F 3 "" H 6950 1000 50  0001 C CNN
+	1    6950 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1000 7050 1000
+Wire Wire Line
+	7050 1100 6900 1100
+Connection ~ 7050 1100
+Wire Wire Line
+	7850 1000 8200 1000
+Connection ~ 7850 1000
+$Comp
+L mouser:PTV09A-4020U-B104 RV4
+U 1 1 5E0B71A1
+P 7100 1850
+F 0 "RV4" H 7500 2115 50  0000 C CNN
+F 1 "PTV09A-4020U-B104" H 7500 2024 50  0000 C CNN
+F 2 "SamaSys:PTV09A4020FB103" H 7750 1950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PTV09A-4020U-B104.pdf" H 7750 1850 50  0001 L CNN
+F 4 "9mm carbon potentiometer linear 100K 20% Bourns Potentiometer PTV Series with a 6 mm Dia. Shaft 100k +/-20% 0.05W, Linear, Through Hole" H 7750 1750 50  0001 L CNN "Description"
+F 5 "" H 7750 1650 50  0001 L CNN "Height"
+F 6 "652-PTV09A4020U-B104" H 7750 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PTV09A4020U-B104" H 7750 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 7750 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTV09A-4020U-B104" H 7750 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5E0B7DEF
+P 7900 1950
+F 0 "C4" H 7992 1996 50  0000 L CNN
+F 1 "C104" H 7992 1905 50  0000 L CNN
+F 2 "" H 7938 1800 50  0001 C CNN
+F 3 "~" H 7900 1950 50  0001 C CNN
+	1    7900 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 1850 2    50   Input ~ 0
+PC3
+Wire Wire Line
+	7900 2050 7900 2100
+Wire Wire Line
+	7900 2100 7100 2100
+Wire Wire Line
+	7100 2100 7100 1950
+$Comp
+L power:GND #PWR07
+U 1 1 5E0BBE30
+P 6950 1950
+F 0 "#PWR07" H 6950 1700 50  0001 C CNN
+F 1 "GND" H 6955 1777 50  0000 C CNN
+F 2 "" H 6950 1950 50  0001 C CNN
+F 3 "" H 6950 1950 50  0001 C CNN
+	1    6950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR08
+U 1 1 5E0BC3A8
+P 7000 1850
+F 0 "#PWR08" H 7000 1700 50  0001 C CNN
+F 1 "VDDA" H 7017 2023 50  0000 C CNN
+F 2 "" H 7000 1850 50  0001 C CNN
+F 3 "" H 7000 1850 50  0001 C CNN
+	1    7000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1850 7000 1850
+Wire Wire Line
+	6950 1950 7100 1950
+Connection ~ 7100 1950
+Wire Wire Line
+	7900 1850 8200 1850
+Connection ~ 7900 1850
+Connection ~ 1150 2500
+Wire Wire Line
+	1150 2500 2050 2500
+$Comp
+L power:GND #PWR010
+U 1 1 5E0EBE2B
+P 3300 2750
+F 0 "#PWR010" H 3300 2500 50  0001 C CNN
+F 1 "GND" H 3305 2577 50  0000 C CNN
+F 2 "" H 3300 2750 50  0001 C CNN
+F 3 "" H 3300 2750 50  0001 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 2650 0    50   Input ~ 0
+PB6
+Text GLabel 3650 2850 0    50   Input ~ 0
+PB7
+Wire Wire Line
+	4450 2850 4450 3050
+Wire Wire Line
+	4450 3050 3400 3050
+Wire Wire Line
+	3400 3050 3400 2750
+Wire Wire Line
+	3400 2750 3300 2750
+Wire Wire Line
+	3850 2750 3400 2750
+Connection ~ 3400 2750
+Wire Wire Line
+	3650 2650 3850 2650
+Wire Wire Line
+	3650 2850 3850 2850
+Text GLabel 4600 2650 2    50   Input ~ 0
+PC5
+Wire Wire Line
+	4600 2650 4450 2650
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3
+U 1 1 5E11FF2A
+P 1250 1050
+F 0 "J3" H 1300 1367 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 1300 1276 50  0000 C CNN
+F 2 "" H 1250 1050 50  0001 C CNN
+F 3 "~" H 1250 1050 50  0001 C CNN
+	1    1250 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 950  2    50   Input ~ 0
+Rout-
+Text GLabel 900  950  0    50   Input ~ 0
+Rout+
+Text GLabel 900  1050 0    50   Input ~ 0
+Lout+
+Text GLabel 1700 1050 2    50   Input ~ 0
+Lout-
+$Comp
+L power:GND #PWR09
+U 1 1 5E1206FA
+P 1650 1300
+F 0 "#PWR09" H 1650 1050 50  0001 C CNN
+F 1 "GND" H 1655 1127 50  0000 C CNN
+F 2 "" H 1650 1300 50  0001 C CNN
+F 3 "" H 1650 1300 50  0001 C CNN
+	1    1650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  950  1050 950 
+Wire Wire Line
+	1550 950  1650 950 
+Wire Wire Line
+	1700 1050 1650 1050
+Wire Wire Line
+	1050 1150 950  1150
+$Comp
+L Thonkiconn:WQP-PJ301M-12_JACK OUT1
+U 1 1 5E13E53D
+P 10300 2200
+F 0 "OUT1" H 10508 2230 50  0000 L CNN
+F 1 "Audio out R (a)" H 10508 2139 50  0000 L CNN
+F 2 "" H 10300 2200 50  0001 L BNN
+F 3 "" H 10300 2200 50  0001 C CNN
+	1    10300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Thonkiconn:WQP-PJ301M-12_JACK OUT2
+U 1 1 5E140712
+P 10300 2650
+F 0 "OUT2" H 10508 2680 50  0000 L CNN
+F 1 "Audio out L (b)" H 10508 2589 50  0000 L CNN
+F 2 "" H 10300 2650 50  0001 L BNN
+F 3 "" H 10300 2650 50  0001 C CNN
+	1    10300 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 2100 0    50   Input ~ 0
+Rout+
+Text GLabel 9800 2550 0    50   Input ~ 0
+Lout+
+Wire Wire Line
+	1650 1050 1650 1150
+Connection ~ 1650 1050
+Wire Wire Line
+	1650 1050 1550 1050
+Wire Wire Line
+	900  1050 1050 1050
+Wire Wire Line
+	1650 950  1650 1050
+Connection ~ 1650 950 
+Wire Wire Line
+	1650 950  1700 950 
+Wire Wire Line
+	950  1150 950  1250
+Wire Wire Line
+	950  1250 1650 1250
+Connection ~ 1650 1250
+Wire Wire Line
+	1650 1250 1650 1300
+Wire Wire Line
+	1550 1150 1650 1150
+Connection ~ 1650 1150
+Wire Wire Line
+	1650 1150 1650 1250
+Wire Wire Line
+	9800 2550 10100 2550
+Wire Wire Line
+	9950 2100 10100 2100
+Wire Wire Line
+	9900 2750 10000 2750
+Wire Wire Line
+	10100 2650 10000 2650
+Wire Wire Line
+	10000 2650 10000 2750
+Connection ~ 10000 2750
+Wire Wire Line
+	10000 2750 10100 2750
+$Comp
+L power:GND #PWR011
+U 1 1 5E1864F1
+P 9900 2850
+F 0 "#PWR011" H 9900 2600 50  0001 C CNN
+F 1 "GND" H 9905 2677 50  0000 C CNN
+F 2 "" H 9900 2850 50  0001 C CNN
+F 3 "" H 9900 2850 50  0001 C CNN
+	1    9900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2300 9900 2750
+Connection ~ 9900 2750
+Wire Wire Line
+	9900 2750 9900 2850
+Wire Wire Line
+	9900 2200 9900 2300
+Connection ~ 9900 2300
+Wire Wire Line
+	9900 2300 10100 2300
+Wire Wire Line
+	9900 2200 10100 2200
+$EndSCHEMATC
