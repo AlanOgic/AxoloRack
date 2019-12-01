@@ -1,10 +1,11 @@
-# AxoloRack
-Yet another Eurorack project for Axoloti
-This is a personal project to build an Eurorack extension for Axoloti. 
+# AxoloRack, Yet another Eurorack project for Axoloti
+
+  This is a personal project to build an Eurorack extension for Axoloti development board.  
 http://www.axoloti.com/
-Educational project, i plan to learn basics of electronic. and more...
-KiCad, pcb makind techniques, diy electronics
+
+  KiCad, pcb makind techniques, diy electronics, and more.  
+then i'll use KiCad because open source
 https://www.kicad-pcb.org/
 
-starting Patch templates and maybe Axoloti objects
+  Axoloti starting Patch templates and maybe Axoloti objects  
 http://www.axoloti.com/axoloti-patcher/
