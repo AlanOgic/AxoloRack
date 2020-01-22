@@ -1,9 +1,12 @@
 # AxoloRack, Yet Another Axoloti Eurorack Controller YA2EC
 
-  This is a personal project to build an Eurorack extension for Axoloti development board.  
+This project is for education and, well, could land to commercial product.
+Eurorack extension till complete module to integrate Axoloti development board in Eurorack world.
 http://www.axoloti.com/
 
-  KiCad, pcb makind techniques, diy electronics, and more.  
+This project is for DIYers, Open Hardware, Open Source.
+
+KiCad, pcb makind techniques, diy electronics, and more.  
 then i'll use KiCad because it is open source
 https://www.kicad-pcb.org/
 
