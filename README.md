@@ -18,7 +18,8 @@ is to put Axoloti in vertical way (cutting the 'midi & pwr' part, then unsolder 
 - one Encoder with pull button
 - 4 assignables potometers
 - route both input and output to 4 Thonkiconn mono jacks
-
+- 10 HP max
+- Loosing nothing Axoloti provide, route all I/O
 ...
 
 Of course all is Open Source.
