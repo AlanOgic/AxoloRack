@@ -13,7 +13,7 @@ https://www.kicad-pcb.org/
 Axoloti starting Patch templates for end users.  
 http://www.axoloti.com/axoloti-patcher/
 
-Big thanks to HerrPaule and his Euxoloti project, for all step of this developpment !
+Big thanks to HerrPaule and his Euxoloti project !
 https://github.com/HerrPaule/Euxoloti
 
 ...
