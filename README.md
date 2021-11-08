@@ -8,7 +8,7 @@ This project is for DIYers, Open Hardware, Open Source.
 
 KiCad, pcb makind techniques, diy electronics, and more.  
 then i'll use KiCad because it is open source
-https://www.kicad-pcb.org/
+https://www.kicad.org/
 
 Axoloti starting Patch templates for end users.  
 http://www.axoloti.com/axoloti-patcher/
